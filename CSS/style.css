@@ -1,0 +1,202 @@
+
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Zen old Mincho' sans-serif;
+    color: rgb(27, 27, 27);
+}
+hr {
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+.navbar { 
+    padding: 8rem;
+}
+.navbar-nav li{
+    padding-right: 20px;
+}
+.nav-link {
+    font-size: 1.1em !important;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.carousel-caption h1 {
+    font-size: 500%;
+    color: black;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 15px rgb(245, 243, 243);
+}
+.carousel-caption h3 {
+    font-size: 200%;
+    font-weight: 500;
+    text-shadow: 1px 1px 10px black;
+    padding-bottom: 1rem;
+}
+.btn-primary {
+    background-color: rgb(0, 89, 255);
+    border: 1px solid rgb(0, 89, 255);
+}
+.btn-primary:hover {
+    background-color: rgb(0, 140, 255);
+    border: 1px solid rgb(0, 140, 255);
+}
+.jumbotron {
+    padding: 1rem;
+    border-radius: 0;
+}
+.padding {
+    padding-bottom: 2rem;
+}
+.welcome {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2 rem;
+}
+.welcome h1 {
+    text-align: center;
+}
+.welcome hr {
+    border-top:2px solid rgb(34, 34, 34);
+    width: 95%;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+}
+.fa-hiking {
+    color: rgb(20, 4, 255);
+}
+.fa-hand-holding-heart {
+    color: rgb(209, 25, 255);
+}
+.fa-calendar-check {
+    color: rgb(79, 214, 0);
+}
+.social {
+    font-size: 4.5em;
+    padding: 3rem;
+}
+.fa-facebook {
+    color: #3b5998
+}
+.fa-twitter {
+    color: #00aced;
+}
+.fa-instagram {
+    color: #517fa4;
+}
+.fa-tiktok {
+    color: black;
+}
+.fa-youtube {
+    color: #bb0000;
+}
+.fa-facebook:hover {
+    color: #d5d5d5
+}
+.fa-twitter:hover {
+    color: #d5d5d5;
+}
+.fa-instagram:hover {
+    color: #d5d5d5;
+}
+.fa-tiktok:hover {
+    color: #d5d5d5;
+}
+.fa-youtube {
+    color: #bb0000;
+}
+footer {
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding: 2rem;
+}
+hr.light {
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+footer a {
+    color: #d5d5d5;
+}
+hr.light-100 {
+    border-top: 1px solid #d5d5d5;
+    width: 100%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+/*media queries*/
+@media (max-width: 992px) {
+    .social {
+        font-size: 4em;
+        padding: 2rem;
+    }
+}
+@media (max-width: 768px) {
+    .carousel-caption {
+        top: 45%;
+    }
+    .carousel-caption h1 {
+        font-size: 359%;
+    }
+    .carousel-caption h3 {
+        font-size: 140%;
+    }
+    .carousel-caption .btn {
+        font-size: 95%;
+        padding: 8px 14px;
+    }
+    .display-4 {
+        font-size: 200%;
+    }
+    .social {
+        font-size: 2.5em;
+        padding: 1.2rem;
+    }
+}
+@media (max-width: 576px) {
+    .carousel-caption {
+        top: 40%;
+    }
+    .carousel-caption h1 {
+        font-size: 250%;
+    }
+    .carousel-caption h3 {
+        font-size: 110%;
+    }
+    .carousel-caption .btn {
+        font-size: 90%;
+        padding: 4px 8px;
+    }
+    ul.carousel-indicators {
+        display: none;
+    }
+    .display-4 {
+        font-size: 160%;
+    }
+    .social {
+        font-size: 2em;
+        padding: .7rem;
+    }
+}
+/*---Firefox Bug Fix --*/
+.carousel-item {
+    transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease;
+    transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+  }
+  /*--- Bootstrap Padding Fix --*/
+  [class*="col-"] {
+      padding: 1rem;
+}
