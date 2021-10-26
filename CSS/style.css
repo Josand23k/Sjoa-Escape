@@ -1,4 +1,6 @@
-
+* {
+    box-sizing: border-box;
+}
 
 html, body {
     height: 100%;
@@ -62,9 +64,6 @@ hr {
     margin: 0 auto;
     padding-top: 2 rem;
 }
-.welcome h1 {
-    text-align: center;
-}
 .welcome hr {
     border-top:2px solid rgb(34, 34, 34);
     width: 95%;
@@ -111,7 +110,7 @@ hr {
 .fa-tiktok:hover {
     color: #d5d5d5;
 }
-.fa-youtube {
+.fa-youtube:hover {
     color: #bb0000;
 }
 footer {
