@@ -1,84 +1,108 @@
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
-html, body {
-    height: 100%;
+header h1 {
+    font-family: 'Medula One', cursive;
+    font-size: 3.5em;
+    color: white;
+    padding: 0px;
+}
+header h4 {
+    font-family: 'Medula One', cursive;
+    font-size: 2em;
+    color: white;
+    padding-top: 17px;
+}
+.jumbotron h1 {
+    font-family: 'Medula One', cursive;
+    font-size: 6em;
+}
+.line-jumb {
     width: 100%;
-    font-family: 'Zen old Mincho' sans-serif;
-    color: rgb(27, 27, 27);
 }
 hr {
-    border-top: 1px solid #d5d5d5;
-    width: 75%;
-    margin-top: .8rem;
+    background-color: rgb(3, 3, 3);
+    height: 1px;
+    width: 85%;
+    margin-top: 8rem;
     margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
 }
-.navbar { 
-    padding: 8rem;
+.products h3 {
+    font-family: 'Medula One', cursive;
+    font-size: 2.5em;
 }
-.navbar-nav li{
-    padding-right: 20px;
+
+.oss h1 {
+    text-align: center;
+    font-family: 'Medula One', cursive;
+    font-size: 5em;
 }
-.nav-link {
-    font-size: 1.1em !important;
+/*activities section*/
+.welcome-act {
+    padding-top: 110px;;
 }
-.carousel-inner img {
+.section-act {
+    padding: 15px;
+}
+.section-act a {
+    color: rgb(31, 31, 31);;
+    background-color: rgb(253, 207, 1);
+    border-radius: .3rem;
+    padding: 5px;
+    padding: 10px;
+}
+.section-act a:hover {
+    text-decoration: none;
+    color: #fff;;
+    background-color: rgb(211, 155, 0);
+    padding: 5px;
+    padding: 10px;
+}
+.anclas {
+    margin-top: 20px;
+}
+.check-it {
+    display: block;
     width: 100%;
-    height: 100%;
 }
-.carousel-caption {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+.prod-color1 {
+    background-color: rgba(206, 154, 230, 0.685);
+    padding: 5px;
 }
-.carousel-caption h1 {
-    font-size: 500%;
-    color: black;
-    text-transform: uppercase;
-    text-shadow: 1px 1px 15px rgb(245, 243, 243);
+.prod-color2 {
+    background-color: rgba(216, 148, 0, 0.685);
+    padding: 5px;
 }
-.carousel-caption h3 {
-    font-size: 200%;
-    font-weight: 500;
-    text-shadow: 1px 1px 10px black;
-    padding-bottom: 1rem;
+/*packages*/
+.section-act h3 {
+    background-color: goldenrod;
 }
-.btn-primary {
-    background-color: rgb(0, 89, 255);
-    border: 1px solid rgb(0, 89, 255);
+.prod-color3 {
+    background-color: rgba(19, 147, 252, 0.596);
+    padding: 5px;
 }
-.btn-primary:hover {
-    background-color: rgb(0, 140, 255);
-    border: 1px solid rgb(0, 140, 255);
+.prod-color4 {
+    background-color: rgba(108, 250, 179, 0.466);
+    padding: 5px;
 }
-.jumbotron {
-    padding: 1rem;
-    border-radius: 0;
+/*events section*/
+.two-singles {
+    background-color: rgba(255, 127, 80, 0.377);
 }
-.padding {
-    padding-bottom: 2rem;
+.prod-color5 {
+    background-color: rgba(167, 236, 253, 0.452);
+    padding: 5px;
 }
-.welcome {
-    width: 75%;
-    margin: 0 auto;
-    padding-top: 2 rem;
+.prod-color6 {
+    background-color: rgba(179, 185, 126, 0.685);
+    padding: 5px;
 }
-.welcome hr {
-    border-top:2px solid rgb(34, 34, 34);
-    width: 95%;
-    margin-top: .3rem;
-    margin-bottom: 1rem;
-}
-.fa-hiking {
-    color: rgb(20, 4, 255);
-}
-.fa-hand-holding-heart {
-    color: rgb(209, 25, 255);
-}
-.fa-calendar-check {
-    color: rgb(79, 214, 0);
-}
+/*Social media*/
 .social {
     font-size: 4.5em;
     padding: 3rem;
@@ -110,19 +134,38 @@ hr {
 .fa-tiktok:hover {
     color: #d5d5d5;
 }
-.fa-youtube:hover {
+.fa-youtube {
     color: #bb0000;
 }
+/*contact*/
+.contact-top {
+    padding-top: 100px;
+    height: 130px;
+    background-color: gray;
+}
+.contact {
+    margin-top: 15px;
+}
+.form-book {
+    background-color: rgb(231, 228, 228);
+    padding: 10px;
+}
+.form-book h1 {
+    text-align: center;
+}
+/*Footer*/
 footer {
-    background-color: #3f3f3f;
+    
     color: #d5d5d5;
     padding: 2rem;
 }
 hr.light {
     border-top: 1px solid #d5d5d5;
-    width: 75%;
+    width: 50%;
     margin-top: .8rem;
     margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 footer a {
     color: #d5d5d5;
@@ -133,69 +176,7 @@ hr.light-100 {
     margin-top: .8rem;
     margin-bottom: 1rem;
 }
-/*media queries*/
-@media (max-width: 992px) {
-    .social {
-        font-size: 4em;
-        padding: 2rem;
-    }
-}
-@media (max-width: 768px) {
-    .carousel-caption {
-        top: 45%;
-    }
-    .carousel-caption h1 {
-        font-size: 359%;
-    }
-    .carousel-caption h3 {
-        font-size: 140%;
-    }
-    .carousel-caption .btn {
-        font-size: 95%;
-        padding: 8px 14px;
-    }
-    .display-4 {
-        font-size: 200%;
-    }
-    .social {
-        font-size: 2.5em;
-        padding: 1.2rem;
-    }
-}
-@media (max-width: 576px) {
-    .carousel-caption {
-        top: 40%;
-    }
-    .carousel-caption h1 {
-        font-size: 250%;
-    }
-    .carousel-caption h3 {
-        font-size: 110%;
-    }
-    .carousel-caption .btn {
-        font-size: 90%;
-        padding: 4px 8px;
-    }
-    ul.carousel-indicators {
-        display: none;
-    }
-    .display-4 {
-        font-size: 160%;
-    }
-    .social {
-        font-size: 2em;
-        padding: .7rem;
-    }
-}
-/*---Firefox Bug Fix --*/
-.carousel-item {
-    transition: -webkit-transform 0.5s ease;
-    transition: transform 0.5s ease;
-    transition: transform 0.5s ease, -webkit-transform 0.5s ease;
-    -webkit-backface-visibility: visible;
-    backface-visibility: visible;
-  }
-  /*--- Bootstrap Padding Fix --*/
-  [class*="col-"] {
-      padding: 1rem;
+footer h5 {
+    font-size: 1.5em;
+    text-align: center;
 }
