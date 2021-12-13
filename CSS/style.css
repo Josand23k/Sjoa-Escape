@@ -6,15 +6,16 @@
 }
 header h1 {
     font-family: 'Medula One', cursive;
-    font-size: 3.5em;
+    font-size: 3em;
     color: white;
-    padding: 0px;
+    text-shadow: 3px 3px 3px black;
 }
 header h4 {
     font-family: 'Medula One', cursive;
-    font-size: 2em;
+    font-size: 1.8em;
     color: white;
-    padding-top: 17px;
+    padding-top: 15px;
+    text-shadow: 3px 3px 3px black;
 }
 .jumbotron h1 {
     font-family: 'Medula One', cursive;
@@ -32,6 +33,9 @@ hr {
     margin-left: auto;
     margin-right: auto;
 }
+.products img {
+    margin-top: -8px;
+}
 .products h3 {
     font-family: 'Medula One', cursive;
     font-size: 2.5em;
@@ -42,45 +46,10 @@ hr {
     font-family: 'Medula One', cursive;
     font-size: 5em;
 }
-/*activities section*/
-.welcome-act {
-    padding-top: 110px;;
-}
-.section-act {
-    padding: 15px;
-}
-.section-act a {
-    color: rgb(31, 31, 31);;
-    background-color: rgb(253, 207, 1);
-    border-radius: .3rem;
-    padding: 5px;
-    padding: 10px;
-}
-.section-act a:hover {
-    text-decoration: none;
-    color: #fff;;
-    background-color: rgb(211, 155, 0);
-    padding: 5px;
-    padding: 10px;
-}
-.anclas {
-    margin-top: 20px;
-}
-.check-it {
-    display: block;
-    width: 100%;
-}
-.prod-color1 {
-    background-color: rgba(206, 154, 230, 0.685);
-    padding: 5px;
-}
-.prod-color2 {
-    background-color: rgba(216, 148, 0, 0.685);
-    padding: 5px;
-}
+
 /*packages*/
 .section-act h3 {
-    background-color: goldenrod;
+    background-color: rgb(218, 166, 35);
 }
 .prod-color3 {
     background-color: rgba(19, 147, 252, 0.596);
@@ -155,7 +124,6 @@ hr {
 }
 /*Footer*/
 footer {
-    
     color: #d5d5d5;
     padding: 2rem;
 }
